@@ -82,7 +82,7 @@ function down()
 {
 	if(greencar_y <=350) { greencar_y =greencar_y+ 10; 
 		console.log("When down arrow is pressed, x = " + greencar_x + " | y = " +greencar_y);
-		 uploadBackground(); uploadgreencar(); }
+		 uploadBackground(); uploadGreenCar(); }
 		 }
 
 function left()
@@ -90,7 +90,7 @@ function left()
 	if(greencar_x >= 0) { greencar_x =greencar_x - 10;
 		 console.log("When left arrow is pressed, x = " + greencar_x + " | y = " +greencar_y);
 		  uploadBackground();
-	 uploadgreencar(); } 
+	 uploadGreenCar(); } 
 }
 
 function right()
@@ -98,5 +98,5 @@ function right()
 	if(greencar_x <= 750) { greencar_x =greencar_x + 10;
  console.log("When right arrow is pressed, x = " + greencar_x + " | y = " +greencar_y); 
 	uploadBackground();
-	uploadgreencar(); } 
+	uploadGreenCar(); } 
 }
